@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* GENERAL */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	background: #111111;
+	background-image: url('../images/background.png');
+	background-repeat: repeat-x;
+	background-position: left top;
+
+	color: #000;
+}
+
+#target {
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+#wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+.sep {
+	width: 100%;	
+}
+
+/* SPAN CLASSES */
+
+/* bold */
+span.bold {
+	font-weight: bold;
+}
+

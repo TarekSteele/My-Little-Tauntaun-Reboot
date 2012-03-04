@@ -1,19 +1,15 @@
-BLUE = '#172CAF';
-GRAY = '#222';
-SHADOW = '0px 0px 2px 0px ';
-
 $(document).ready(function() {
 	
-	// menu mouseover effects
-	$('.tmenu_inner').mouseenter(function() {
+	// Menu mouseover effects
+	$('#menu .entry').mouseenter(function() {
 		$(this).animate({
-				backgroundColor: BLUE
-			}, 100, function() { $(this).css('box-shadow', SHADOW + BLUE) });
+				backgroundColor: '#172CAF'
+			}, 100);
 	});
-	$('.tmenu_inner').mouseleave(function() {
+	$('#menu .entry').mouseleave(function() {
 		$(this).animate({
-				backgroundColor: GRAY
-			}, 100, function() { $(this).css('box-shadow', '') } );
+				backgroundColor: '#222'
+			}, 100);
 	});
 	
 });
